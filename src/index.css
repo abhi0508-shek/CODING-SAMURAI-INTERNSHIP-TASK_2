@@ -8,35 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Luxury Fashion Design System */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 0% 8%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 42 33% 85%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --luxury-gold: 45 86% 58%;
+    --luxury-gold-foreground: 0 0% 8%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --luxury-beige: 42 33% 85%;
+    --luxury-cream: 50 40% 92%;
+    --luxury-charcoal: 0 0% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --muted: 42 20% 92%;
+    --muted-foreground: 0 0% 45%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --accent: 45 86% 58%;
+    --accent-foreground: 0 0% 8%;
 
-    --radius: 0.5rem;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 42 20% 88%;
+    --input: 42 20% 88%;
+    --ring: 45 86% 58%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-luxury: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--luxury-charcoal)) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(var(--luxury-gold)) 0%, hsl(45 70% 45%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 8% / 0.8) 0%, hsl(0 0% 20% / 0.6) 100%);
+
+    /* Shadows */
+    --shadow-luxury: 0 20px 60px -10px hsl(var(--primary) / 0.2);
+    --shadow-card: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    --shadow-glow: 0 0 30px hsl(var(--luxury-gold) / 0.3);
+
+    /* Animation */
+    --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 
     --sidebar-background: 0 0% 98%;
 
