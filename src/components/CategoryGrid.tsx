@@ -18,7 +18,7 @@ const CategoryGrid = () => {
       title: "Summer Staples",
       subtitle: "Breezy and beautiful",
       image: womensSummer,
-      link: "/women/summer"
+      link: "/summer"
     },
     {
       id: 3,
@@ -66,9 +66,11 @@ const CategoryGrid = () => {
                   {category.title}
                 </h3>
                 <p className="text-sm opacity-90 mb-4">{category.subtitle}</p>
-                <Button variant="hero" size="sm" className="group">
-                  Explore
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                <Button variant="hero" size="sm" className="group" asChild>
+                  <a href={category.link}>
+                    Explore
+                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
               </div>
             </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
     },
     {
       name: 'Women',
-      items: ['Dresses', 'Tops', 'Skirts', 'Jackets', 'Accessories']
+      items: ['Dresses', 'Tops', 'Skirts', 'Jackets', 'Summer Collection', 'Accessories']
     },
     {
       name: 'Kids',
@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       {/* Announcement Bar */}
       <div className="bg-primary text-primary-foreground text-center py-2 text-sm font-medium">
-        New User Perks: Get 20% Off + Free Shipping on Orders Above $99
+        New User Perks: Get 20% Off + Free Shipping on Orders Above ₹7,999
       </div>
 
       <div className="container mx-auto px-4">
@@ -59,7 +59,7 @@ const Navbar = () => {
                     {item.items.map((subItem) => (
                       <a
                         key={subItem}
-                        href="#"
+                        href={subItem === 'Summer Collection' ? '/summer' : '#'}
                         className="block px-4 py-2 text-sm text-foreground hover:bg-accent hover:text-accent-foreground transition-colors"
                       >
                         {subItem}

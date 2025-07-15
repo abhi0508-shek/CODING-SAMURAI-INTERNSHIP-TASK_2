@@ -11,8 +11,8 @@ const ProductCards = () => {
       id: 1,
       name: "Premium Cotton Shirt",
       brand: "Levi's",
-      price: 89,
-      originalPrice: 129,
+      price: 7199,
+      originalPrice: 10499,
       image: productShowcase,
       rating: 4.8,
       reviews: 124,
@@ -23,8 +23,8 @@ const ProductCards = () => {
       id: 2,
       name: "Designer Blazer",
       brand: "GAP",
-      price: 199,
-      originalPrice: 299,
+      price: 15999,
+      originalPrice: 23999,
       image: productShowcase,
       rating: 4.9,
       reviews: 89,
@@ -35,8 +35,8 @@ const ProductCards = () => {
       id: 3,
       name: "Summer Dress",
       brand: "Zara",
-      price: 79,
-      originalPrice: 119,
+      price: 6399,
+      originalPrice: 9599,
       image: productShowcase,
       rating: 4.7,
       reviews: 156,
@@ -47,8 +47,8 @@ const ProductCards = () => {
       id: 4,
       name: "Casual Trousers",
       brand: "Superdry",
-      price: 119,
-      originalPrice: 169,
+      price: 9599,
+      originalPrice: 13599,
       image: productShowcase,
       rating: 4.6,
       reviews: 78,
@@ -160,10 +160,10 @@ const ProductCards = () => {
                 {/* Price */}
                 <div className="flex items-center gap-2">
                   <span className="text-xl font-bold text-primary">
-                    ${product.price}
+                    ₹{product.price.toLocaleString('en-IN')}
                   </span>
                   <span className="text-sm text-muted-foreground line-through">
-                    ${product.originalPrice}
+                    ₹{product.originalPrice.toLocaleString('en-IN')}
                   </span>
                 </div>
               </div>

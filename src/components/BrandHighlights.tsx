@@ -27,7 +27,7 @@ const BrandHighlights = () => {
   ];
 
   const features = [
-    { icon: "🚚", title: "Free Shipping", subtitle: "On orders above $99" },
+    { icon: "🚚", title: "Free Shipping", subtitle: "On orders above ₹7,999" },
     { icon: "↩️", title: "Easy Returns", subtitle: "30-day return policy" },
     { icon: "🛡️", title: "Authentic Products", subtitle: "100% genuine guarantee" },
     { icon: "💳", title: "Secure Payments", subtitle: "Multiple payment options" }

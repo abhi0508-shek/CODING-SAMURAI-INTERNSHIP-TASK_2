@@ -9,28 +9,28 @@ const LookbookSection = () => {
       image: lookbook1,
       title: "Street Style Essentials",
       description: "Effortless urban elegance",
-      items: ["Oversized Blazer - $199", "High-Waist Trousers - $89", "Statement Sneakers - $159"]
+      items: ["Oversized Blazer - ₹15,999", "High-Waist Trousers - ₹7,199", "Statement Sneakers - ₹12,799"]
     },
     {
       id: 2,
       image: lookbook1,
       title: "Minimalist Chic",
       description: "Less is more philosophy",
-      items: ["Silk Blouse - $129", "Tailored Pants - $149", "Gold Accessories - $79"]
+      items: ["Silk Blouse - ₹10,399", "Tailored Pants - ₹11,999", "Gold Accessories - ₹6,399"]
     },
     {
       id: 3,
       image: lookbook1,
       title: "Weekend Vibes",
       description: "Casual luxury redefined",
-      items: ["Cashmere Sweater - $189", "Denim Jacket - $119", "Leather Bag - $299"]
+      items: ["Cashmere Sweater - ₹15,199", "Denim Jacket - ₹9,599", "Leather Bag - ₹24,099"]
     },
     {
       id: 4,
       image: lookbook1,
       title: "Evening Glamour",
       description: "Night out perfection",
-      items: ["Little Black Dress - $199", "Statement Heels - $179", "Clutch Bag - $89"]
+      items: ["Little Black Dress - ₹15,999", "Statement Heels - ₹14,399", "Clutch Bag - ₹7,199"]
     }
   ];
 
