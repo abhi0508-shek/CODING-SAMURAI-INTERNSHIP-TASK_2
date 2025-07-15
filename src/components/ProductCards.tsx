@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { Heart, Eye, ShoppingCart, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import productShowcase from '@/assets/product-showcase.jpg';
+import cottonShirt from '@/assets/cotton-shirt.jpg';
+import designerBlazer from '@/assets/designer-blazer.jpg';
+import summerDressProduct from '@/assets/summer-dress-product.jpg';
+import casualTrousers from '@/assets/casual-trousers.jpg';
 
 const ProductCards = () => {
   const [wishlist, setWishlist] = useState<number[]>([]);
@@ -13,7 +16,7 @@ const ProductCards = () => {
       brand: "Levi's",
       price: 7199,
       originalPrice: 10499,
-      image: productShowcase,
+      image: cottonShirt,
       rating: 4.8,
       reviews: 124,
       colors: ['#000000', '#FFFFFF', '#E8E8E8'],
@@ -25,7 +28,7 @@ const ProductCards = () => {
       brand: "GAP",
       price: 15999,
       originalPrice: 23999,
-      image: productShowcase,
+      image: designerBlazer,
       rating: 4.9,
       reviews: 89,
       colors: ['#1F2937', '#374151', '#6B7280'],
@@ -37,7 +40,7 @@ const ProductCards = () => {
       brand: "Zara",
       price: 6399,
       originalPrice: 9599,
-      image: productShowcase,
+      image: summerDressProduct,
       rating: 4.7,
       reviews: 156,
       colors: ['#F9FAFB', '#FEF3C7', '#FECACA'],
@@ -49,7 +52,7 @@ const ProductCards = () => {
       brand: "Superdry",
       price: 9599,
       originalPrice: 13599,
-      image: productShowcase,
+      image: casualTrousers,
       rating: 4.6,
       reviews: 78,
       colors: ['#111827', '#374151', '#6B7280'],
