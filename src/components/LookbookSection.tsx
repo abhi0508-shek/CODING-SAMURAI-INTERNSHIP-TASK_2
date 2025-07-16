@@ -1,33 +1,36 @@
 import { Instagram, ArrowUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import lookbook1 from '@/assets/lookbook-1.jpg';
+import streetStyleLookbook from '@/assets/street-style-lookbook.jpg';
+import minimalistChicLookbook from '@/assets/minimalist-chic-lookbook.jpg';
+import weekendVibesLookbook from '@/assets/weekend-vibes-lookbook.jpg';
+import eveningGlamourLookbook from '@/assets/evening-glamour-lookbook.jpg';
 
 const LookbookSection = () => {
   const looks = [
     {
       id: 1,
-      image: lookbook1,
+      image: streetStyleLookbook,
       title: "Street Style Essentials",
       description: "Effortless urban elegance",
       items: ["Oversized Blazer - ₹15,999", "High-Waist Trousers - ₹7,199", "Statement Sneakers - ₹12,799"]
     },
     {
       id: 2,
-      image: lookbook1,
+      image: minimalistChicLookbook,
       title: "Minimalist Chic",
       description: "Less is more philosophy",
       items: ["Silk Blouse - ₹10,399", "Tailored Pants - ₹11,999", "Gold Accessories - ₹6,399"]
     },
     {
       id: 3,
-      image: lookbook1,
+      image: weekendVibesLookbook,
       title: "Weekend Vibes",
       description: "Casual luxury redefined",
       items: ["Cashmere Sweater - ₹15,199", "Denim Jacket - ₹9,599", "Leather Bag - ₹24,099"]
     },
     {
       id: 4,
-      image: lookbook1,
+      image: eveningGlamourLookbook,
       title: "Evening Glamour",
       description: "Night out perfection",
       items: ["Little Black Dress - ₹15,999", "Statement Heels - ₹14,399", "Clutch Bag - ₹7,199"]
