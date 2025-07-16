@@ -1,4 +1,4 @@
-# Welcome to your Ecommerce website project
+# CODING-SAMURAI-INTERNSHIP-TASK- 2
 
 ## Project info
 
