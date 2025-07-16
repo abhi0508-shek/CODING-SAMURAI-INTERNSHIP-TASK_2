@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-display font-bold mb-4">LUXE</h2>
+            <h2 className="text-3xl font-display font-bold mb-4">Style Hub</h2>
             <p className="opacity-90 mb-6 leading-relaxed">
               Redefining luxury fashion with curated collections that celebrate individuality and timeless elegance.
             </p>
@@ -103,7 +103,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>hello@luxefashion.com</span>
+                <span>hello@stylehub.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -172,7 +172,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/20">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
-            <p>© 2024 LUXE Fashion. All rights reserved.</p>
+            <p>© 2024 Style Hub Fashion. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:opacity-100 transition-opacity">Privacy Policy</a>
               <a href="#" className="hover:opacity-100 transition-opacity">Terms of Service</a>

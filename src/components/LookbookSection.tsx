@@ -125,12 +125,12 @@ const LookbookSection = () => {
             Share Your Style
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Tag us @luxe_fashion and use #LuxeStyle to be featured in our lookbook
+            Tag us @stylehub_fashion and use #StyleHubLook to be featured in our lookbook
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="lg">
               <Instagram className="w-5 h-5 mr-2" />
-              Follow @luxe_fashion
+              Follow @stylehub_fashion
             </Button>
             <Button variant="gold" size="lg">
               Shop All Looks
