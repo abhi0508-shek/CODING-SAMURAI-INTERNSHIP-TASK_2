@@ -5,6 +5,12 @@ import cottonShirt from '@/assets/cotton-shirt.jpg';
 import designerBlazer from '@/assets/designer-blazer.jpg';
 import summerDressProduct from '@/assets/summer-dress-product.jpg';
 import casualTrousers from '@/assets/casual-trousers.jpg';
+import leatherHandbag from '@/assets/leather-handbag.jpg';
+import mensSneakers from '@/assets/mens-sneakers.jpg';
+import womensWatch from '@/assets/womens-watch.jpg';
+import mensSuitJacket from '@/assets/mens-suit-jacket.jpg';
+import womensHeels from '@/assets/womens-heels.jpg';
+import winterCoat from '@/assets/winter-coat.jpg';
 
 const ProductCards = () => {
   const [wishlist, setWishlist] = useState<number[]>([]);
@@ -56,6 +62,54 @@ const ProductCards = () => {
       rating: 4.6,
       reviews: 78,
       colors: ['#111827', '#374151', '#6B7280'],
+      isNew: false
+    },
+    {
+      id: 5,
+      name: "Leather Handbag",
+      brand: "Coach",
+      price: 18999,
+      originalPrice: 25999,
+      image: leatherHandbag,
+      rating: 4.9,
+      reviews: 67,
+      colors: ['#8B4513', '#000000', '#D2B48C'],
+      isNew: true
+    },
+    {
+      id: 6,
+      name: "Men's Sneakers",
+      brand: "Nike",
+      price: 8799,
+      originalPrice: 12999,
+      image: mensSneakers,
+      rating: 4.7,
+      reviews: 142,
+      colors: ['#FFFFFF', '#000000', '#808080'],
+      isNew: false
+    },
+    {
+      id: 7,
+      name: "Women's Watch",
+      brand: "Fossil",
+      price: 24999,
+      originalPrice: 34999,
+      image: womensWatch,
+      rating: 4.8,
+      reviews: 53,
+      colors: ['#FFD700', '#C0C0C0', '#E6B8B7'],
+      isNew: true
+    },
+    {
+      id: 8,
+      name: "Men's Suit Jacket",
+      brand: "Hugo Boss",
+      price: 15999,
+      originalPrice: 22999,
+      image: mensSuitJacket,
+      rating: 4.9,
+      reviews: 78,
+      colors: ['#000000', '#1F2937', '#374151'],
       isNew: false
     }
   ];

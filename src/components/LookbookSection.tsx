@@ -4,6 +4,8 @@ import streetStyleLookbook from '@/assets/street-style-lookbook.jpg';
 import minimalistChicLookbook from '@/assets/minimalist-chic-lookbook.jpg';
 import weekendVibesLookbook from '@/assets/weekend-vibes-lookbook.jpg';
 import eveningGlamourLookbook from '@/assets/evening-glamour-lookbook.jpg';
+import officeProfessionalLookbook from '@/assets/office-professional-lookbook.jpg';
+import casualDenimLookbook from '@/assets/casual-denim-lookbook.jpg';
 
 const LookbookSection = () => {
   const looks = [
@@ -34,6 +36,20 @@ const LookbookSection = () => {
       title: "Evening Glamour",
       description: "Night out perfection",
       items: ["Little Black Dress - ₹15,999", "Statement Heels - ₹14,399", "Clutch Bag - ₹7,199"]
+    },
+    {
+      id: 5,
+      image: officeProfessionalLookbook,
+      title: "Office Professional",
+      description: "Power dressing perfected",
+      items: ["Structured Blazer - ₹18,999", "Pencil Skirt - ₹8,999", "Classic Pumps - ₹12,499"]
+    },
+    {
+      id: 6,
+      image: casualDenimLookbook,
+      title: "Casual Denim",
+      description: "Timeless comfort meets style",
+      items: ["Vintage Denim Jacket - ₹11,299", "High-Waisted Jeans - ₹6,799", "White Sneakers - ₹8,199"]
     }
   ];
 
@@ -55,7 +71,7 @@ const LookbookSection = () => {
         </div>
 
         {/* Lookbook Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {looks.map((look) => (
             <div
               key={look.id}
